@@ -1,5 +1,5 @@
 * {
-    height: 100%;
+    
     margin: 0px;
     padding: 0px;
 }
@@ -73,15 +73,13 @@ header{
 
 #jogos_em_alta {
     margin: auto;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 50px;
     margin-bottom: 0px;
     padding-top: 10px;
     text-align: center;
     background-color:  black;
     color: white;
     height: 40px;
+    border-radius: black;
     
     
     
@@ -107,21 +105,21 @@ header{
     
 }
 
-#jogos > ul {
+#jogos  {
+    margin-top: 0px;
         display: flex;
         background-color: rgba(0, 0, 0, 0);
         height: 260px;
-        align-items: center;
-        justify-content: center;
+
+        /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/ 
+        justify-content: space-around;
         flex-shrink: 1;
         overflow-x: auto;
         scroll-behavior: smooth ;
         
 }
 
-.fotos {
-    justify-content: space-between;
-}
+
 
 
 #imagem-especificacao_jogos{
@@ -131,10 +129,11 @@ header{
 }
 
 #corpo{
+    width: 100%;
     min-width: 300px;
     max-width: 100%;
     margin: auto;
     background-color: white;
     width: 1000px;
-    height: 100%;
+    
 }
