@@ -8,8 +8,16 @@ body {
     background-image: linear-gradient(to bottom, #200553, #7536EB);
 
 }
+header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
 
-header {
+}
+
+#cima {
     background-color: black;
     height: 80px;
     width: 100%;
@@ -120,4 +128,13 @@ header {
     height: 300px;
     margin-top: 80px;
     margin-left: 50px;
+}
+
+#corpo{
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+    height: 100%;
 }
