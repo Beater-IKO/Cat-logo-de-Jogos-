@@ -106,17 +106,33 @@ header{
 }
 
 #jogos  {
-    margin-top: 0px;
+        margin-top: 0px;
         display: flex;
         background-color: rgba(0, 0, 0, 0);
-        height: 260px;
-
+        height: auto;
+        padding-bottom: 0px;
         /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/ 
         justify-content: space-around;
         flex-shrink: 1;
         overflow-x: auto;
         scroll-behavior: smooth ;
         
+        
+}
+
+
+#jogos2  {
+    padding-bottom: 0px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: 260px;
+
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/ 
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth ;
+    
 }
 
 
