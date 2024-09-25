@@ -80,35 +80,25 @@ header{
     color: white;
     height: 40px;
     border-radius: black;
-    
-    
-    
-    
 }
 
 #tigrinho {
-    
-    box-shadow: -15px 5px 15px  black;
-   
-    
+    border: 3px solid black;
     
 }
 #dragon {
-    
-    
-    
+    border: 3px solid black;
+
 }
 #rabbit{
-    
-    box-shadow: 15px 5px 15px black;
-    
+    border: 3px solid black;    
     
 }
 
 #jogos  {
-        margin-top: 0px;
         display: flex;
         background-color: rgba(0, 0, 0, 0);
+        margin-top: 0px;
         height: auto;
         padding-bottom: 0px;
         /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/ 
@@ -122,11 +112,9 @@ header{
 
 
 #jogos2  {
-    padding-bottom: 0px;
     display: flex;
     background-color: rgba(0, 0, 0, 0);
-    height: 260px;
-
+    height: auto;
     /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/ 
     justify-content: space-around;
     flex-shrink: 1;
@@ -138,18 +126,37 @@ header{
 
 
 
-#imagem-especificacao_jogos{
+#imagem-especificacao_jogos {
     height: 300px;
     margin-top: 80px;
     margin-left: 50px;
 }
 
 #corpo{
+    
     width: 100%;
     min-width: 300px;
     max-width: 100%;
     margin: auto;
     background-color: white;
     width: 1000px;
+    
+}
+
+#novidades {
+    margin-top: 50px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        text-align: center;
+        background-color:  black;
+        color: white;
+        height: 40px;
+        border-radius: black;
+}
+
+
+#img-novidades{
+    display: flex;
+    justify-content: space-around;
     
 }
