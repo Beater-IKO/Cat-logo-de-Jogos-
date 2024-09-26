@@ -98,7 +98,7 @@ header{
 #jogos  {
         display: flex;
         background-color: rgba(0, 0, 0, 0);
-        margin-top: 0px;
+        margin-top: 50px;
         height: auto;
         padding-bottom: 0px;
         /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/ 
@@ -144,7 +144,7 @@ header{
 }
 
 #novidades {
-    margin-top: 50px;
+        margin-top: 50px;
         margin-bottom: 0px;
         padding-top: 10px;
         text-align: center;
@@ -158,5 +158,40 @@ header{
 #img-novidades{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
     
+}
+
+#aclamadospelacritica{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:  black;
+    color: white;
+    height: 40px;
+    border-radius: black;
+}
+
+
+
+
+
+
+
+
+
+#suporte{
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-suporte{
+    width: 100px;
+    height: 60px;
 }
