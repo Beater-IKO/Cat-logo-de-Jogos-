@@ -8,6 +8,7 @@ body {
     background-image: linear-gradient(to bottom, #200553, #7536EB);
 
 }
+
 header{
     background-color: black;
     height: 80px;
@@ -22,7 +23,7 @@ header{
     height: 80px;
     width: 100%;
     text-align: center;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
 
 }
 
@@ -79,6 +80,7 @@ header{
     background-color:  black;
     color: white;
     height: 40px;
+    width: 100%;
     border-radius: black;
 }
 
@@ -133,13 +135,26 @@ header{
 }
 
 #corpo{
-    
+    background-image: linear-gradient(to bottom, #200553, #7536EB);
     width: 100%;
     min-width: 300px;
     max-width: 100%;
     margin: auto;
     background-color: white;
     width: 1000px;
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    : 5px solid rgb(0, 0, 0);
+
     
 }
 
@@ -152,6 +167,8 @@ header{
         color: white;
         height: 40px;
         border-radius: black;
+        overflow-x: auto;
+        scroll-behavior: smooth ;
 }
 
 
@@ -187,11 +204,24 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 15px;
+    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #img-suporte{
-    width: 100px;
-    height: 60px;
+    width: 80px;
+    height: 40px;
+}
+
+#jogos_aclamadospelacritica {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/ 
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth ;
 }
