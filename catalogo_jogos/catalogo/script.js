@@ -1,4 +1,6 @@
-const menuButton = document.getElementById('menu-button');
-const menu = document.getElementById('menu');
+const menuButton = document.getElementById("menu-button");
+const menu = document.getElementById("menu");
 
-menuButton.addEventListener('click', () => {menu.classList.toggle('open'); });
+menuButton.addEventListener("click", () => {
+  menu.classList.toggle("open");
+});
