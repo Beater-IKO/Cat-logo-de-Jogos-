@@ -1,5 +1,5 @@
 * {
-    
+
     margin: 0px;
     padding: 0px;
     font-family: "Varela Round", sans-serif;
@@ -10,7 +10,7 @@ body {
 
 }
 
-header{
+header {
     background-color: black;
     height: 80px;
     width: 100%;
@@ -35,26 +35,28 @@ header{
 }
 
 #menu {
-    display: none; /* Oculta o menu inicialmente */
+    display: none;
+    /* Oculta o menu inicialmente */
     position: absolute;
     left: 0px;
     margin: 0px;
     background-color: black;
     color: cyan;
     margin-top: 80px;
-    height:100%;
+    height: 100%;
     width: 300px;
 
-    
-    
+
+
 }
-#menu-button{
+
+#menu-button {
     margin-left: 30px;
     position: absolute;
     height: 80px;
     width: 70px;
     left: 0px;
-    background-color:black;
+    background-color: black;
     color: cyan;
     border: 0px;
     font-weight: 800;
@@ -62,7 +64,8 @@ header{
 }
 
 #menu.open {
-    display: block; /* Exibe o menu quando a classe "open" é adicionada */
+    display: block;
+    /* Exibe o menu quando a classe "open" é adicionada */
 }
 
 #categorias {
@@ -78,7 +81,7 @@ header{
     margin-bottom: 0px;
     padding-top: 10px;
     text-align: center;
-    background-color:  black;
+    background-color: black;
     color: white;
     height: 40px;
     width: 100%;
@@ -87,43 +90,45 @@ header{
 
 #valorant {
     border: 3px solid black;
-    
+
 }
+
 #gtav {
     border: 3px solid black;
 
 }
-#minecraft{
-    border: 3px solid black;    
-    
+
+#minecraft {
+    border: 3px solid black;
+
 }
 
-#jogos  {
-        display: flex;
-        background-color: rgba(0, 0, 0, 0);
-        margin-top: 50px;
-        height: auto;
-        padding-bottom: 0px;
-        /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/ 
-        justify-content: space-around;
-        flex-shrink: 1;
-        overflow-x: auto;
-        scroll-behavior: smooth ;
-        
-        
-}
-
-
-#jogos2  {
+#jogos {
     display: flex;
     background-color: rgba(0, 0, 0, 0);
+    margin-top: 50px;
     height: auto;
-    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/ 
+    padding-bottom: 0px;
+    /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/
     justify-content: space-around;
     flex-shrink: 1;
     overflow-x: auto;
-    scroll-behavior: smooth ;
-    
+    scroll-behavior: smooth;
+
+
+}
+
+
+#jogos2 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
 }
 
 
@@ -135,7 +140,7 @@ header{
     margin-left: 50px;
 }
 
-#corpo{
+#corpo {
     background-image: linear-gradient(to bottom, #200553, #7536EB);
     width: 100%;
     min-width: 300px;
@@ -144,48 +149,38 @@ header{
     background-color: white;
     width: 1000px;
     border-left: 5px solid rgb(0, 0, 0);
-    border-right
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    : 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
 
-    
+
 }
 
 #novidades {
-        margin-top: 50px;
-        margin-bottom: 0px;
-        padding-top: 10px;
-        text-align: center;
-        background-color:  black;
-        color: white;
-        height: 40px;
-        border-radius: black;
-        overflow-x: auto;
-        scroll-behavior: smooth ;
-}
-
-
-#img-novidades{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    
-}
-
-#aclamadospelacritica{
     margin-top: 50px;
     margin-bottom: 0px;
     padding-top: 10px;
     text-align: center;
-    background-color:  black;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: black;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+
+#img-novidades {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+#aclamadospelacritica {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
     color: white;
     height: 40px;
     border-radius: black;
@@ -199,9 +194,9 @@ header{
 
 
 
-#suporte{
+#suporte {
     background-color: black;
-    color: white; 
+    color: white;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -209,7 +204,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#img-suporte{
+#img-suporte {
     width: 80px;
     height: 40px;
 }
@@ -220,9 +215,9 @@ header{
     display: flex;
     background-color: rgba(0, 0, 0, 0);
     height: auto;
-    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/ 
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/
     justify-content: space-around;
     flex-shrink: 1;
     overflow-x: auto;
-    scroll-behavior: smooth ;
+    scroll-behavior: smooth;
 }
