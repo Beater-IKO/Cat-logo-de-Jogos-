@@ -78,7 +78,7 @@ header {
 
 #jogos_em_alta {
     margin: auto;
-    margin-bottom: 0px;
+    margin-top: 70px;
     padding-top: 10px;
     text-align: center;
     background-color: black;
@@ -106,7 +106,7 @@ header {
 #jogos {
     display: flex;
     background-color: rgba(0, 0, 0, 0);
-    margin-top: 50px;
+    margin-top: 20px;
     height: auto;
     padding-bottom: 0px;
     /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/
@@ -141,17 +141,12 @@ header {
 }
 
 #corpo {
-    background-image: linear-gradient(to bottom, #200553, #7536EB);
+    background-color: #20055300;
     width: 100%;
     min-width: 300px;
     max-width: 100%;
     margin: auto;
-    background-color: white;
     width: 1000px;
-    border-left: 5px solid rgb(0, 0, 0);
-    border-right: 5px solid rgb(0, 0, 0);
-
-
 }
 
 #novidades {
@@ -176,7 +171,7 @@ header {
 }
 
 #aclamadospelacritica {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0px;
     padding-top: 10px;
     text-align: center;
@@ -210,7 +205,7 @@ header {
 }
 
 #jogos_aclamadospelacritica {
-    margin-top: 50px;
+    margin-top: 25px;
     padding-bottom: 50px;
     display: flex;
     background-color: rgba(0, 0, 0, 0);
@@ -220,4 +215,21 @@ header {
     flex-shrink: 1;
     overflow-x: auto;
     scroll-behavior: smooth;
+}
+
+#ver_maisp {
+    border: 3px solid black;
+    background-color: #8A0CFF;
+    height: 15px;
+    width: 150px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.ver_mais {
+    display: flex;
+    justify-content: end;
 }
