@@ -135,4 +135,39 @@ img{
 #TagFiltrada{
     background-color: black;
     color: white;
+    padding: 10pt;
 }
+
+#paginas{
+    
+    text-align: center;
+    font-size: 30px;
+ 
+}
+
+#numero{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 0, 0);
+    width: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+
+
+.page-number {
+    /* Estilo padrão dos números */
+    padding: 5px 10px;
+   
+    cursor: pointer;
+  }
+  
+  .selected {
+    /* Estilo para o número selecionado */
+    background-color: #000000;
+    color: #ffffff;
+  }
