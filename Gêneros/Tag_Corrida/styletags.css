@@ -1,0 +1,173 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #200553, #7536EB);
+
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+#cima {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+
+}
+
+
+#sla {
+    color: #8960D7;
+    padding-top: 15px;
+}
+
+#menu {
+    display: none;
+    /* Oculta o menu inicialmente */
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    background-color: black;
+    color: cyan;
+    margin-top: 80px;
+    height: 100%;
+    width: 300px;
+
+
+
+}
+
+#menu-button {
+    margin-left: 30px;
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    left: 0px;
+    background-color: black;
+    color: cyan;
+    border: 0px;
+    font-weight: 800;
+    font-size: large;
+}
+
+#menu.open {
+    display: block;
+    /* Exibe o menu quando a classe "open" é adicionada */
+}
+
+#categorias {
+    background-color: aqua;
+    margin-left: 20px;
+    width: 250px;
+    height: 100%;
+    color: black;
+}
+
+
+
+
+
+
+#TagFiltrada{
+   text-align: center;
+}
+
+#corpo {
+    background-image: linear-gradient(to bottom, #200553, #7536EB);
+    width: 100%;
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    width: 1100px;
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+#suporte {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-suporte {
+    width: 80px;
+    height: 40px;
+}
+
+
+#imagem{
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    
+}
+
+img{
+    border: 3px solid black;
+}
+
+#TagFiltrada{
+    background-color: black;
+    color: white;
+    padding: 10pt;
+}
+
+#paginas{
+    
+    text-align: center;
+    font-size: 30px;
+ 
+}
+
+#numero{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 0, 0);
+    width: 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+
+
+.page-number {
+    /* Estilo padrão dos números */
+    padding: 5px 10px;
+   
+    cursor: pointer;
+  }
+  
+  .selected {
+    /* Estilo para o número selecionado */
+    background-color: #000000;
+    color: #ffffff;
+  }
