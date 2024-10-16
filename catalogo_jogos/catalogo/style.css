@@ -98,14 +98,14 @@ img {
     font-weight: bold;
   }
 
-  #suportemenu {
+  #suporteMenu {
     background-color: #8a0cff00;
     border: 0px;
     font-size: 24px;
     font-weight: bolder;
     margin-top: 10px;
     color: black;
-    
+    cursor:pointer;
   }
 
 
