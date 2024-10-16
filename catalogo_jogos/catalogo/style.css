@@ -51,7 +51,7 @@ img {
     display: none;
     /* Oculta o menu inicialmente */
     position: absolute;
-    left: 0px;
+    
     margin: 0px;
     background-color: #8A0CFF;
     color: cyan;
@@ -91,7 +91,7 @@ img {
 #categorias-lista {
     
     list-style: none;
-    height: 400px;
+    height: 360px;
     background-color: #8A0CFF;
     padding: 0;
     color: white;
