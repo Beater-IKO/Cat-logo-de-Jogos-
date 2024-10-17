@@ -1,80 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexus</title>
-    <link rel="stylesheet" href="Suportehome.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus</title>
+  <link rel="stylesheet" href="Suportehome.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <header>
-      <div id="cima">
-        <button id="menu-button">Menu</button>
-        <nav id="menu">
-          <h1>
-            Categorias
-            <div id="categorias">
-              <p>Um Jogador</p>
-              <p>Multiplayer</p>
-              <p>F2P</p>
-              <p>Aventura</p>
-              <p>RPG</p>
-              <p>FPS</p>
-              <p>Corrida</p>
-              <p>Terror</p>
-              <p>Luta</p>
-              <p>Esportes</p>
-              <p>Puzzle</p>
-              <p>Retro</p>
-              <p>Fantasia</p>
-            </div>
-          </h1>
-        </nav>
-        <a href="/catalogo_jogos/catalogo/catalogo.html">
-          <h1 id="sla">NEXUS</h1>
-        </a>
-      </div>
-    </header>
+<body>
+  <header>
+    <div id="cima">
+      <img id="menuimg" src="/catalogo_jogos/catalogo/imagens/hamburger+menu.png" alt="">
+      <button id="menu-button">Menu</button>
+      <nav id="menu">
 
-    <main id="corpo">
-      <div id="Nome">
-        <h1>Suporte</h1>
-      </div>
-      <div id="caixa">
-        <div id="formulario">
-          <form>
-            <label>Selecione um filtro</label>
-            <select id="seletor">
-              <option value="none"></option>
-              <option value="Carregamento">Não está carregando a imagem</option>
-              <option value="informacaoincorreta">Informação incorreta</option>
-              <option value="faltadeinformacao">Falta de informação</option>
-            </select>
-            <br>
-            <span id="infoproblema">Descreva o problema</span>
-            <textarea placeholder="Descreva seu problema aqui " name="problema" id="problema"></textarea>
-          </form>
-        </div>
-      </div>
-    </main>
 
-    <footer id="suporte">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrbXXoNRlGOk0JuKAx7kdreYshn5cyj2MDg&s"
-        alt=""
-        id="img-suporte"
-      />
+        <button id="botao-categorias"> Categorias De Jogos</button>
+        <ul id="categorias-lista" class="hidden">
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_SInglePlayer/TagSinglePlayer.html">
+            <li>One Player</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Multiplayer/TagMultiplayer.html">
+            <li>Multiplayer</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Gratuitos/TagGratuitos.html">
+            <li>Gratuitos</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Aventura/TagAventura.html">
+            <li>Aventura</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Rpg/TagRpg.html">
+            <li>RPG</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Fps/TagFps.html">
+            <li>FPS</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Corrida/TagCorrida.html">
+            <li>Corrida</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Terror/TagT_Terror.html">
+            <li>Terror</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Luta/TagLuta.html">
+            <li>Luta</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Simulação/TagSimulação.html">
+            <li>Simulação</li>
+          </a>
+          <a href="/catalogo_jogos/catalogo/Gêneros/Tag_Retro/TagRetrô.html">
+            <li>Retrô</li>
+          </a>
+
+        </ul>
+
+      </nav>
+      <a href="/catalogo_jogos/catalogo/catalogo.html">
+      <h1 id="sla">
+        NEXUS
+      </h1>
+    </a>
+    </div>
+  </header>
+
+  <main id="corpo">
+    <div id="Nome">
       <h1>Suporte</h1>
-    </footer>
+    </div>
+    <div id="caixa">
+      <div id="formulario">
+        <form>
+          <label>Selecione um filtro</label>
+          <select id="seletor">
+            <option value="none"></option>
+            <option value="Carregamento">Não está carregando a imagem</option>
+            <option value="informacaoincorreta">Informação incorreta</option>
+            <option value="faltadeinformacao">Falta de informação</option>
+          </select>
+          <br>
+          <span id="infoproblema">Descreva o problema</span>
+          <textarea placeholder="Descreva seu problema aqui " name="problema" id="problema"></textarea>
+        </form>
+      </div>
+    </div>
+  </main>
 
-    <script src="Suportehome.js"></script>
-  </body>
+  <footer id="suporte">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrbXXoNRlGOk0JuKAx7kdreYshn5cyj2MDg&s" alt=""
+      id="img-suporte" />
+      <a href="/catalogo_jogos/catalogo/Suporte/Suportehome.html">
+    <h1>Suporte</h1>
+  </a>
+  </footer>
+
+  <script src="Suportehome.js"></script>
+</body>
+
 </html>

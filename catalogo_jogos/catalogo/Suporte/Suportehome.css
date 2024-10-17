@@ -1,12 +1,13 @@
 * {
+
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
   font-family: "Varela Round", sans-serif;
 }
 
 body {
-  background-image: linear-gradient(to bottom, #200553, #7536eb);
+  background-image: linear-gradient(to bottom, #200553, #7536EB);
+
 }
 
 header {
@@ -15,6 +16,7 @@ header {
   width: 100%;
   text-align: center;
   padding: 0px 0px 0px 0px;
+
 }
 
 img {
@@ -27,29 +29,40 @@ img {
   width: 100%;
   text-align: center;
   padding: 0px;
-  text-decoration: none;
+
 }
 
+
 #sla {
-  color: #8960d7;
+  color: #8960D7;
   padding-top: 15px;
 }
 
+#menuimg{
+  margin-top: 25px;
+  border: 5px;
+  height: 30px;
+  width: 40px;
+  float: left;
+}
+
 #menu {
+  
   display: none;
   /* Oculta o menu inicialmente */
   position: absolute;
-  left: 0px;
+  
   margin: 0px;
-  background-color: #8a0cff;
+  background-color: #8A0CFF;
   color: cyan;
   margin-top: 80px;
-  height: 100px;
+  height: 70px;
   width: 300px;
 }
 
 #menu-button {
-  margin-left: 30px;
+  cursor: pointer;
+  margin-left: 40px;
   position: absolute;
   height: 80px;
   width: 70px;
@@ -69,16 +82,18 @@ img {
 #botao-categorias {
   background-color: #20055300;
   color: rgb(0, 0, 0);
-  font-size: 24px;
+  font-size:24px;
   font-weight: bolder;
   margin-top: 10px;
   border: 0px;
   cursor: pointer;
 }
+
 #categorias-lista {
+  
   list-style: none;
-  height: 400px;
-  background-color: #8a0cff;
+  height: 360px;
+  background-color: #8A0CFF;
   padding: 0;
   color: white;
 }
@@ -91,6 +106,12 @@ img {
   padding: 5px;
   font-size: 18px;
   font-weight: bold;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #suporteMenu {
@@ -146,8 +167,7 @@ img {
 }
 
 #caixa {
-  display: grid;
-  position: relative;
+  display: flex;
   background: linear-gradient(#621aa1 50%, #7b27c3 50%);
   width: 100%;
   height: 100%;
@@ -188,9 +208,17 @@ option {
   font-weight: bold;
 }
 
-label,
 span {
   color: white;
   padding-top: 5pt;
   padding-left: 5pt;
+}
+
+form {
+  padding-top: 10pt;
+}
+
+label {
+  padding: 10pt;
+  color:white;
 }
