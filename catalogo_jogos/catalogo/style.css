@@ -39,6 +39,7 @@ img {
 }
 
 #menuimg{
+    cursor: pointer;
     margin-top: 25px;
     border: 5px;
     height: 30px;
@@ -112,9 +113,6 @@ img {
     text-decoration: none;
     color: inherit;
   }
-
-
-
 
 
 #jogos_em_alta {
