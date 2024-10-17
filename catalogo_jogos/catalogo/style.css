@@ -38,22 +38,31 @@ img {
     padding-top: 15px;
 }
 
+#menuimg{
+    margin-top: 25px;
+    border: 5px;
+    height: 30px;
+    width: 40px;
+    float: left;
+}
+
 #menu {
     
     display: none;
     /* Oculta o menu inicialmente */
     position: absolute;
-    left: 0px;
+    
     margin: 0px;
     background-color: #8A0CFF;
     color: cyan;
     margin-top: 80px;
-    height: 100px;
+    height: 70px;
     width: 300px;
 }
 
 #menu-button {
-    margin-left: 30px;
+    cursor: pointer;
+    margin-left: 40px;
     position: absolute;
     height: 80px;
     width: 70px;
@@ -82,7 +91,7 @@ img {
 #categorias-lista {
     
     list-style: none;
-    height: 400px;
+    height: 360px;
     background-color: #8A0CFF;
     padding: 0;
     color: white;
@@ -96,16 +105,12 @@ img {
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
+    
   }
 
-  #suporteMenu {
-    background-color: #8a0cff00;
-    border: 0px;
-    font-size: 24px;
-    font-weight: bolder;
-    margin-top: 10px;
-    color: black;
-    cursor:pointer;
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 
 

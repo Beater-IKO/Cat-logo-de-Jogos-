@@ -34,24 +34,31 @@ header {
     padding-top: 15px;
 }
 
+#menuimg{
+    margin-top: 25px;
+    border: 5px;
+    height: 30px;
+    width: 40px;
+    float: left;
+}
+
 #menu {
+    
     display: none;
     /* Oculta o menu inicialmente */
     position: absolute;
     left: 0px;
     margin: 0px;
-    background-color: black;
+    background-color: #8A0CFF;
     color: cyan;
     margin-top: 80px;
-    height: 100%;
+    height: 70px;
     width: 300px;
-
-
-
 }
 
 #menu-button {
-    margin-left: 30px;
+    cursor: pointer;
+    margin-left: 40px;
     position: absolute;
     height: 80px;
     width: 70px;
@@ -67,6 +74,40 @@ header {
     display: block;
     /* Exibe o menu quando a classe "open" é adicionada */
 }
+
+#botao-categorias {
+    background-color: #20055300;
+    color: rgb(0, 0, 0);
+    font-size:24px;
+    font-weight: bolder;
+    margin-top: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+#categorias-lista {
+    
+    list-style: none;
+    height: 400px;
+    background-color: #8A0CFF;
+    padding: 0;
+    color: white;
+  }
+  
+  #categorias-lista.hidden {
+    display: none;
+  }
+  
+  #categorias-lista li {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 
 #categorias {
     background-color: aqua;
