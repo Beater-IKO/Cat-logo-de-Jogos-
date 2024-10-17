@@ -1,0 +1,237 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Varela Round", sans-serif;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #200553, #7536EB);
+
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+img {
+    border: 3px solid black; /* Ajuste a largura, estilo e cor da borda conforme necessário */
+}
+
+
+#sla {
+    color: #8960D7;
+    padding-top: 15px;
+}
+
+#menu {
+    
+    display: none;
+    /* Oculta o menu inicialmente */
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    background-color: #8A0CFF;
+    color: cyan;
+    margin-top: 80px;
+    height: 100px;
+    width: 300px;
+}
+
+#menu-button {
+    margin-left: 30px;
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    left: 0px;
+    background-color: black;
+    color: cyan;
+    border: 0px;
+    font-weight: 800;
+    font-size: large;
+}
+
+#menu.open {
+    display: block;
+    /* Exibe o menu quando a classe "open" é adicionada */
+}
+
+#botao-categorias {
+    background-color: #20055300;
+    color: rgb(0, 0, 0);
+    font-size:24px;
+    font-weight: bolder;
+    margin-top: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+#categorias-lista {
+    
+    list-style: none;
+    height: 400px;
+    background-color: #8A0CFF;
+    padding: 0;
+    color: white;
+  }
+  
+  #categorias-lista.hidden {
+    display: none;
+  }
+  
+  #categorias-lista li {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #suporteMenu {
+    background-color: #8a0cff00;
+    border: 0px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: black;
+    cursor:pointer;
+  }
+
+#jogos_em_alta {
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: black;
+}
+
+#jogos {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 20px;
+    height: auto;
+    padding-bottom: 0px;
+    /*align-items: center; isso aqui deixa os treco no meio verticamlmente*/
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+
+}
+
+
+#jogos2 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+#imagem-especificacao_jogos {
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#corpo {
+    background-color: #20055300;
+    width: 100%;
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
+    width: 1000px;
+}
+
+#novidades {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: black;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+
+#img-novidades {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    overflow-x: auto;
+
+}
+
+#aclamadospelacritica {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: black;
+}
+
+#suporte {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-suporte {
+    width: 80px;
+    height: 40px;
+}
+
+#jogos_aclamadospelacritica {
+    margin-top: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: auto;
+    /*align-items: center;pa isso aqui deixa os treco no meio verticamlmente*/
+    justify-content: space-around;
+    flex-shrink: 1;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#ver_maisp {
+    border: 3px solid black;
+    background-color: #8A0CFF;
+    height: 15px;
+    width: 150px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.ver_mais {
+    display: flex;
+    justify-content: end;
+}
+
