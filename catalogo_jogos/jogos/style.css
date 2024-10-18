@@ -5,7 +5,7 @@
     font-family: "Varela Round", sans-serif;
 }
 
-main{
+main {
     background-image: linear-gradient(to bottom, #200553, #7536EB);
 
 }
@@ -20,7 +20,8 @@ header {
 }
 
 img {
-    border: 3px solid black; /* Ajuste a largura, estilo e cor da borda conforme necessário */
+    border: 3px solid black;
+    /* Ajuste a largura, estilo e cor da borda conforme necessário */
 }
 
 
@@ -30,7 +31,7 @@ img {
 }
 
 #menu {
-    
+
     display: none;
     /* Oculta o menu inicialmente */
     position: absolute;
@@ -64,40 +65,41 @@ img {
 #botao-categorias {
     background-color: #20055300;
     color: rgb(0, 0, 0);
-    font-size:24px;
+    font-size: 24px;
     font-weight: bolder;
     margin-top: 10px;
     border: 0px;
     cursor: pointer;
 }
+
 #categorias-lista {
-    
+
     list-style: none;
     height: 400px;
     background-color: #8A0CFF;
     padding: 0;
     color: white;
-  }
-  
-  #categorias-lista.hidden {
+}
+
+#categorias-lista.hidden {
     display: none;
-  }
-  
-  #categorias-lista li {
+}
+
+#categorias-lista li {
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
-  }
+}
 
-  #suporteMenu {
+#suporteMenu {
     background-color: #8a0cff00;
     border: 0px;
     font-size: 24px;
     font-weight: bolder;
     margin-top: 10px;
     color: black;
-    cursor:pointer;
-  }
+    cursor: pointer;
+}
 
 #jogos_em_alta {
     margin: auto;
@@ -235,3 +237,40 @@ img {
     justify-content: end;
 }
 
+.conteiner #BarradePesquisa::placeholder {
+    color: wheat;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+}
+
+textarea:focus {
+    color: white;
+}
+
+#BarradePesquisa {
+    background-color: #7909E2;
+    width: 200px;
+    max-height: 30px;
+    outline: none;
+    resize: none;
+    position: absolute;
+    left: 1100px;
+    top: 20px;
+    display: flex;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    background-color: #7909E2;
+    border-radius: 50%;
+    position: absolute;
+    right: 55px;
+    top: 10px;
+
+}
+
+.imagemsemborda {
+    border: none;
+}
