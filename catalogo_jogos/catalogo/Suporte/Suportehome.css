@@ -1,5 +1,4 @@
 * {
-
   margin: 0px;
   padding: 0px;
   font-family: "Varela Round", sans-serif;
@@ -149,7 +148,7 @@ a {
 }
 
 #Nome {
-  position: relative;
+  position: flex;
   width: 100%;
   margin-top: 45px;
   margin-bottom: 45px;
@@ -177,6 +176,8 @@ a {
 #seletor {
   margin-top: 2pt;
   margin-left: 2pt;
+  width: 360px;
+  text-align: center;
 }
 
 #infoproblema,
@@ -211,7 +212,6 @@ option {
 span {
   color: white;
   padding-top: 5pt;
-  padding-left: 5pt;
 }
 
 form {

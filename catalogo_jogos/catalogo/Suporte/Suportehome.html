@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexus</title>
+  <title>Ajuda & Suporte</title>
   <link rel="stylesheet" href="Suportehome.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,15 +74,17 @@
       <div id="formulario">
         <form>
           <label>Selecione um filtro</label>
-          <select id="seletor">
+          <select id="seletor" required>
             <option value="none"></option>
             <option value="Carregamento">Não está carregando a imagem</option>
-            <option value="informacaoincorreta">Informação incorreta</option>
-            <option value="faltadeinformacao">Falta de informação</option>
+            <option value="Informacaoincorreta">Informação incorreta</option>
+            <option value="Faltadeinformacao">Falta de informação</option>
+            <option value=""></option>
+          
           </select>
           <br>
           <span id="infoproblema">Descreva o problema</span>
-          <textarea placeholder="Descreva seu problema aqui " name="problema" id="problema"></textarea>
+          <textarea placeholder="Descreva seu problema aqui " name="problema" id="problema" required></textarea>
         </form>
       </div>
     </div>
