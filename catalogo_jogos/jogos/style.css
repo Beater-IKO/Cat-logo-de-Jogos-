@@ -1,3 +1,4 @@
+
 * {
 
     margin: 0px;
@@ -11,6 +12,8 @@ main {
 }
 
 header {
+    position: relative;
+    z-index: 2;
     background-color: black;
     height: 80px;
     width: 100%;
@@ -266,7 +269,7 @@ textarea:focus {
     background-color: #7909E2;
     border-radius: 50%;
     position: absolute;
-    right: 55px;
+    right: 40px;
     top: 10px;
 
 }
@@ -274,3 +277,28 @@ textarea:focus {
 .imagemsemborda {
     border: none;
 }
+
+.Fundoimagem{
+height: 50vh;
+/* ADICIONE AQUI A IMAGEM QUE DEVE APARECER NO FUNDO */
+background-image: url(https://c4.wallpaperflare.com/wallpaper/488/720/833/dark-souls-iii-video-games-castle-cathedral-wallpaper-preview.jpg);
+background-size: cover;
+width:100%;
+height:980px;
+background-position: center;
+}
+.Fundoimagem::before {
+    content: ""; /* Necessário para criar o pseudo-elemento */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(95, 41, 196, 0.5); /* Filtro roxo com 50% de opacidade */
+    z-index: 1; /* Para garantir que o filtro fique acima da imagem */
+    height:1060px;
+}
+.roxo{ 
+    height: 700px; /* Altura da seção roxa */
+    background: linear-gradient(to bottom, #200553, #5f29c4); /* Gradiente de cima para baixo */
+}   
