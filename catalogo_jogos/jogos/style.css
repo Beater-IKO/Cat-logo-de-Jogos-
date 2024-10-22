@@ -1,14 +1,7 @@
-
 * {
-
     margin: 0px;
     padding: 0px;
     font-family: "Varela Round", sans-serif;
-}
-
-main {
-    background-image: linear-gradient(to bottom, #200553, #7536EB);
-
 }
 
 header {
@@ -26,13 +19,10 @@ img {
     border: 3px solid black;
     /* Ajuste a largura, estilo e cor da borda conforme necessário */
 }
-
-
 #sla {
     color: #8960D7;
     padding-top: 15px;
 }
-
 #menu {
 
     display: none;
@@ -46,7 +36,6 @@ img {
     height: 100px;
     width: 300px;
 }
-
 #menu-button {
     margin-left: 30px;
     position: absolute;
@@ -64,7 +53,6 @@ img {
     display: block;
     /* Exibe o menu quando a classe "open" é adicionada */
 }
-
 #botao-categorias {
     background-color: #20055300;
     color: rgb(0, 0, 0);
@@ -74,7 +62,6 @@ img {
     border: 0px;
     cursor: pointer;
 }
-
 #categorias-lista {
 
     list-style: none;
@@ -258,18 +245,18 @@ textarea:focus {
     outline: none;
     resize: none;
     position: absolute;
-    left: 1100px;
+    left: 85%;
     top: 20px;
     display: flex;
 }
 
 .circulo {
-    width: 50px;
+    width: 60px;
     height: 50px;
     background-color: #7909E2;
-    border-radius: 50%;
+    border-radius: 40%;
     position: absolute;
-    right: 40px;
+    left: 95%;
     top: 10px;
 
 }
@@ -286,19 +273,20 @@ background-size: cover;
 width:100%;
 height:980px;
 background-position: center;
+
 }
 .Fundoimagem::before {
-    content: ""; /* Necessário para criar o pseudo-elemento */
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(95, 41, 196, 0.5); /* Filtro roxo com 50% de opacidade */
-    z-index: 1; /* Para garantir que o filtro fique acima da imagem */
-    height:1060px;
+    background-color: rgba(95, 41, 196, 0.5); 
+    z-index: 1; 
+    height:108vh;
 }
 .roxo{ 
-    height: 700px; /* Altura da seção roxa */
+    height:100vh;/* Altura da seção roxa */
     background: linear-gradient(to bottom, #200553, #5f29c4); /* Gradiente de cima para baixo */
-}   
+}  
