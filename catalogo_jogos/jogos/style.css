@@ -3,7 +3,38 @@
     padding: 0px;
     font-family: "Varela Round", sans-serif;
 }
+h2{
+    position: absolute;
+    left: 30%;
+    top: 19%;
+    z-index: 2;
+    color: white;
+    font: bold 35pt Arial;
 
+}
+h3{
+    z-index: 2;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    color: white;
+    font: bolder 25pt Arial;
+
+}
+#opcoesdownload{
+        z-index: 2;
+        position: absolute;
+        color: white;
+        left: 30%;
+        top: 35%;
+        display:flex;
+        gap: 10px;
+}
+#opcoesdownload p{
+    background-color: #49106E;
+    padding: 10px;
+    font:bolder 30pt Arial;
+}
 header {
     position: relative;
     z-index: 2;
@@ -14,6 +45,7 @@ header {
     padding: 0px 0px 0px 0px;
 
 }
+
 
 img {
     border: 3px solid black;
@@ -47,6 +79,7 @@ img {
     border: 0px;
     font-weight: 800;
     font-size: large;
+    cursor: pointer;
 }
 
 #menu.open {
@@ -271,22 +304,83 @@ height: 50vh;
 background-image: url(https://c4.wallpaperflare.com/wallpaper/488/720/833/dark-souls-iii-video-games-castle-cathedral-wallpaper-preview.jpg);
 background-size: cover;
 width:100%;
-height:980px;
+height:1100px;
 background-position: center;
-
+z-index: 1;
 }
+/* FILTRO ROXO */
 .Fundoimagem::before {
     content: "";
-    position: absolute;
+    position:absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(95, 41, 196, 0.5); 
-    z-index: 1; 
-    height:108vh;
+    z-index:1; 
+    height:117%;
 }
+/* BLOCO INFERIOR ROXO DE INFORMAÇÔES */
 .roxo{ 
-    height:100vh;/* Altura da seção roxa */
-    background: linear-gradient(to bottom, #200553, #5f29c4); /* Gradiente de cima para baixo */
+    height:100vh;
+    background: linear-gradient(to bottom, #5121ac, #5f29c4); 
 }  
+#capa{
+    z-index: 2;
+    position:absolute;
+    top: 19%;
+    left: 7%;
+}
+.BlocoLateral{
+    z-index: 2;
+    position: absolute;
+    right:1%;
+    top: 45%;
+    color: red;
+    background-color:#5E0FB2;
+    width: 400px;
+    height: 900px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.BlocoLateral .Pergunta{
+    color: black;
+    padding: 5px;
+    font: bold 14pt Arial;
+}
+.BlocoLateral .Resposta{
+    color: white;
+    padding: 5px;
+}
+.Grupo{
+    display: flex;
+    padding: 5px;
+}
+.OpcoesGenero{
+    display:flex;
+    gap: 10px;
+    color: white;
+    font: bolder 12pt Arial;
+    padding: 10px;
+}
+.OpcoesGenero p{
+    background-color:#A900F1;
+    padding: 10px;
+}
+.Plataformas{
+    background-color:#621AA1;
+    width: 400px;
+    height: 80px;
+}
+.Idioma{
+    background-color:#621AA1;
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    font: normal 16pt Arial;
+}
+.LINHA{
+    width: 380px;
+    height: 1px;
+}
