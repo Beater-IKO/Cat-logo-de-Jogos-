@@ -273,8 +273,8 @@ textarea:focus {
 
 #BarradePesquisa {
     background-color: #7909E2;
-    width: 200px;
-    max-height: 30px;
+    width: 30vh;
+    height: 2.2vw;
     outline: none;
     resize: none;
     position: absolute;
@@ -318,7 +318,7 @@ z-index: 1;
     bottom: 0;
     background-color: rgba(95, 41, 196, 0.5); 
     z-index:1; 
-    height:117%;
+    height:187vh;
 }
 /* BLOCO INFERIOR ROXO DE INFORMAÇÔES */
 .roxo{ 
@@ -381,6 +381,21 @@ z-index: 1;
     font: normal 16pt Arial;
 }
 .LINHA{
-    width: 380px;
-    height: 1px;
+    background-color: #A416F6;
+    width: 28vw;
+    height: 0.1vw;
+    position: absolute;
+    top: 45.8vw;
+}
+.IdiomaImg #Dublagem{
+    position: absolute;
+    top: 95vh;
+    right: 26vh;
+    border: none;
+
+}
+.Idioma p{
+    color: white;
+    font:normal 15pt Serif;
+    padding: 1vh;
 }
