@@ -326,10 +326,10 @@ z-index: 1;
     background: linear-gradient(to bottom, #5121ac, #5f29c4); 
 }  
 #capa{
-    z-index: 2;
+    z-index:2;
     position:absolute;
-    top: 19%;
-    left: 7%;
+    top: 18%;
+    left: 3%;
 }
 .BlocoLateral{
     z-index: 2;
@@ -356,6 +356,18 @@ z-index: 1;
 .Grupo{
     display: flex;
     padding: 5px;
+}
+.GrupoIdioma{
+    display: flex;
+
+}
+.ConfirmaDublagem{
+    margin: 1.9%;
+    margin-left: 36.8%;
+    background-color: white;
+    border-radius: 100%;
+    width: 0.4vw;
+    height: 0.8vh;
 }
 .OpcoesGenero{
     display:flex;
