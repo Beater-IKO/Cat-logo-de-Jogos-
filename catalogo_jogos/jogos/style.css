@@ -273,24 +273,24 @@ textarea:focus {
 
 #BarradePesquisa {
     background-color: #7909E2;
-    width: 30vh;
-    height: 2.2vw;
+    width: 13%;
+    height: 50%;
     outline: none;
     resize: none;
     position: absolute;
     left: 85%;
-    top: 20px;
+    top: 25%;
     display: flex;
 }
 
 .circulo {
-    width: 60px;
-    height: 50px;
+    width: 3.5%;
+    height: 68%;
     background-color: #7909E2;
     border-radius: 40%;
     position: absolute;
-    left: 95%;
-    top: 10px;
+    right: 1.2%;
+    top:20%;
 
 }
 
@@ -357,18 +357,7 @@ z-index: 1;
     display: flex;
     padding: 5px;
 }
-.GrupoIdioma{
-    display: flex;
 
-}
-.ConfirmaDublagem{
-    margin: 1.9%;
-    margin-left: 36.8%;
-    background-color: white;
-    border-radius: 100%;
-    width: 0.4vw;
-    height: 0.8vh;
-}
 .OpcoesGenero{
     display:flex;
     gap: 10px;
@@ -382,32 +371,82 @@ z-index: 1;
 }
 .Plataformas{
     background-color:#621AA1;
-    width: 400px;
-    height: 80px;
+    padding: 3.5%;
 }
 .Idioma{
     background-color:#621AA1;
     width: 380px;
-    height: 300px;
     padding: 10px;
     font: normal 16pt Arial;
+    color: white;
 }
 .LINHA{
     background-color: #A416F6;
-    width: 28vw;
-    height: 0.1vw;
+    width: 90%;
+    height: 0.1%;
     position: absolute;
-    top: 45.8vw;
+    top: 45.8v;
 }
-.IdiomaImg #Dublagem{
+td{
+    text-align: center;
+}
+.Sobre h1{
+    margin-left: 5%;
+    font: bold 30pt Arial;
+    z-index: 2;
     position: absolute;
-    top: 95vh;
-    right: 26vh;
+    top: 125%
+}
+#Sobretext{
     border: none;
-
-}
-.Idioma p{
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+    font: normal 20pt Arial;
+    resize: none;
+    width: 70%;
+    height: 60%;
     color: white;
-    font:normal 15pt Serif;
-    padding: 1vh;
+    top: 133%;
+    left: 5%;
+}
+.Requisitos h1{
+    margin-left: 5%;
+    font: bold 30pt Arial;
+    z-index: 2;
+    position: absolute;
+    top: 155%;
+    color: white;
+    width: 67%;
+    height: 10%;
+    padding: 1%;
+    background-color: #621AA1;
+}
+.RequisitosTabela{
+    background-color: #621AA1;
+    z-index: 2;
+    position: absolute;
+    top: 163%;
+    left: 0%;
+    width: 69%;
+    margin-left: 5%;
+}
+.RequisitosTabela th{
+    color: white;
+    font: normal 20pt Arial;
+    padding-bottom: 1%;
+}
+.RequisitosTabela p{
+display: contents;
+}
+.RequisitosTabela td{
+    padding: 0.8%;
+}
+.Preto{
+color: black;
+font: bolder 14pt Arial;
+}
+.Branco{
+    color: white;
+    font: normal 14pt Arial;
 }
