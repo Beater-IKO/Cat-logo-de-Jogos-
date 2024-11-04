@@ -12,3 +12,9 @@ const categoriasLista = document.getElementById("categorias-lista");
 categoriasButton.addEventListener("click", () => {
   categoriasLista.classList.toggle("hidden");
 });
+
+// Salva apenas apertando enter
+document.querySelector('#BarradePesquisa').addEventListener('keydown',function(){
+  let jogo = document.getElementById('BarradePesquisa').value;
+  localStorage.setItem('Nome', jogo);
+})

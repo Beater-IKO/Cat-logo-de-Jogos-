@@ -267,7 +267,7 @@ img {
     padding: 5px;
 }
 
-textarea:focus {
+input:focus {
     color: white;
 }
 
