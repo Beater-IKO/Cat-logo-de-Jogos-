@@ -90,7 +90,7 @@
             <label>Selecione um filtro</label>
             <select id="seletor" required>
               <option value="none"></option>
-              <option value="Carregamento">Não está carregando a imagem</option>
+              <option value="NaoCarrega">Não está carregando a imagem</option>
               <option value="Informacaoincorreta">Informação incorreta</option>
               <option value="Faltadeinformacao">Falta de informação</option>
             </select>
@@ -106,7 +106,7 @@
               <input type="button" value="Anexar Arquivo" id="botao-arquivo">
             </div>
             <div id="botao">
-              <input type="button" value="Enviar" id="butaoEnviar" />
+              <input type="button" value="Enviar" id="butaoEnviar" onclick="confirmar()"/>
             </div>
           </form>
         </div>

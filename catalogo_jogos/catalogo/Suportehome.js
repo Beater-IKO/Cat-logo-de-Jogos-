@@ -16,3 +16,10 @@ categoriasButton.addEventListener("click", () => {
 function volta () {
   history.back();
 }
+
+function confirmar() {
+  let problema = document.querySelector('#seletor').value;
+  localStorage.setItem('Problema', problema);
+  let descriçao = document.querySelector('#problema').value;
+  localStorage.setItem('Descrição', descriçao);
+}
